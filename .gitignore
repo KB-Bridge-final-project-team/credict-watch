@@ -1,0 +1,32 @@
+# 환경변수 및 인증정보
+.env
+.env.*
+!.env.example
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 대용량 데이터 및 모델
+data/raw/
+*.pkl
+*.joblib
+*.h5
+*.pt
+
+# Node.js
+node_modules/
+dist/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
